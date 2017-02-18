@@ -21,8 +21,18 @@ output:
 
 - Putting everything together
 
+## In children, how effective are the flu vaccine and tamiflu compared to placebo at **preventing** medically attended flu infections?
+
+# There are several important preliminaries.
+
+# Effectiveness depends on disease prevalence
+
+# Effectiveness depends on diagnostic accuracy
+
 # This season has not been too bad
 
 ## 
 
 ![](files/PedFluDeath_WeeklyImage.jpeg)
+
+## 
