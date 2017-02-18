@@ -1,40 +1,28 @@
 ---
-title: "Pediatric PICO presentation"
-author: "Austin Meyer"
-output: ioslides_presentation
+title: "Pediatrics PICO presentation"
+author: Austin Meyer
+date: February 24, 2017
+output: 
+  revealjs::revealjs_presentation:
+    theme: default
+    highlight: pygments
+    center: true
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
+  
 ## Road Map
 
->- Brief case presentation
+- Brief case presentation
 
->- PICO Question
+- PICO Question
 
->- Starting to answer
+- Starting to answer
 
->- Background on testing
+- Background on testing
 
->- Putting everything together
+- Putting everything together
 
-## Slide with Bullets
+# This season has not been too bad
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+## 
 
-## Slide with R Output
-
-```{r cars, echo = TRUE}
-summary(cars)
-```
-
-## Slide with Plot
-
-```{r pressure}
-plot(pressure)
-```
-
+![](files/PedFluDeath_WeeklyImage.jpeg)
