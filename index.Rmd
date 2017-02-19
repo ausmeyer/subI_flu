@@ -7,6 +7,13 @@ output:
     theme: default
     highlight: pygments
     center: true
+    reveal_plugins: ["notes", "search", "chalkboard", "zoom"]
+    self_contained: false
+    reveal_options:
+      slideNumber: true
+      previewLinks: true
+      chalkboard: 
+        theme: whiteboard
 ---
   
 ## Road Map
@@ -15,9 +22,9 @@ output:
 
 - PICO Question
 
-- Starting to answer
-
 - Background on testing
+
+- Starting to answer
 
 - Putting everything together
 
@@ -25,14 +32,25 @@ output:
 
 # There are several important preliminaries.
 
-# Effectiveness depends on disease prevalence
+## Effectiveness depends on disease prevalence
 
-# Effectiveness depends on diagnostic accuracy
+## Effectiveness depends on diagnostic accuracy
 
-# This season has not been too bad
-
-## 
+## This season has not been too bad
 
 ![](files/PedFluDeath_WeeklyImage.jpeg)
 
-## 
+# So how effective is the flu vaccine?
+
+## It varies widely each year
+![](files/vaccine-effectiveness-table-2016.png)
+
+## How about in children this year (as of 2/17)?
+
+![](files/bydemo.png)
+
+# So how effective is tamiflu?
+
+## How about in children?
+
+![](files/tamiflu_effectiveness_children.png)
