@@ -144,7 +144,13 @@ knitr::include_graphics("files/bydemo.png")
 
 # How effective are NIs? 
 
-## They are moderately effective 
+## Oseltamivir is moderately effective
+
+```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
+knitr::include_graphics("files/tamiflu_combined.png")
+```
+
+## Zanamivir is moderately effective 
 
 ```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
 knitr::include_graphics("files/tamiflu_effectiveness_1.png")
@@ -165,7 +171,7 @@ knitr::include_graphics("files/tamiflu_effectiveness_3.png")
 ## How about in children? 
 
 ```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
-knitr::include_graphics("files/tamiflu_effectiveness_children.png")
+knitr::include_graphics("files/NI_effectiveness_children.png")
 ```
 
 # These studies are decent, but what does it mean? 
