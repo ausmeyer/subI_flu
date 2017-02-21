@@ -144,13 +144,13 @@ knitr::include_graphics("files/bydemo.png")
 
 # How effective are NIs? 
 
-## Oseltamivir is moderately effective
+## Tamiflu is moderately effective
 
 ```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
 knitr::include_graphics("files/tamiflu_combined.png")
 ```
 
-## Zanamivir is moderately effective 
+## Relenza is moderately effective 
 
 ```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
 knitr::include_graphics("files/tamiflu_effectiveness_1.png")
