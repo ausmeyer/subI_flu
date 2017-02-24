@@ -182,7 +182,7 @@ knitr::include_graphics("files/tamiflu_effectiveness_3.png")
 
 - Tamiflu household prophylaxis: \(NNT = \frac{1}{P * (1 - RR)} = \frac{1}{0.1 * (1 - 0.2)} = 12.5\)
 
-- Relenza household prophylaxis: \(NNT = \frac{1}{P * (1 - RR)} = \frac{1}{0.1 * (1 - 0.2)} = 12.82\)
+- Relenza household prophylaxis: \(NNT = \frac{1}{P * (1 - RR)} = \frac{1}{0.1 * (1 - 0.22)} = 12.82\)
 
 - Preventing secondary pneumonia: \(NNT = \frac{1}{P * (1 - RR)} = \frac{1}{0.1 * (1 - 0.3)} = 14.3\)
 
