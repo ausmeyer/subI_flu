@@ -10,7 +10,7 @@ output:
     center: true
     reveal_plugins: ["notes", "chalkboard", "zoom"]
     self_contained: false
-    mathjax: local
+    mathjax: "http://example.com/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
     reveal_options:
       slideNumber: true
       previewLinks: true
