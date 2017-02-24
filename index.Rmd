@@ -168,9 +168,10 @@ knitr::include_graphics("files/tamiflu_effectiveness_2.png")
 knitr::include_graphics("files/tamiflu_effectiveness_3.png")
 ```
 
-# These studies are decent, but what do they mean?  {#smaller}
+# These studies are nice, but what do they mean?  {#smaller}
 
 ## Flu Vaccine versus NIs {#smaller}
+
 - \(VaccineEffectiveness = 1 - RiskRatio\)
 
 - \(AbsoluteRiskReduction = Prevalence * Vaccine Effectiveness\)
@@ -185,8 +186,27 @@ knitr::include_graphics("files/tamiflu_effectiveness_3.png")
 
 - Preventing secondary pneumonia: \(NNT = \frac{1}{P * (1 - RR)} = \frac{1}{0.1 * (1 - 0.3)} = 14.3\)
 
-#Adverse Effects?
+## RIDTs for children {#smaller}
 
-See Manuscript
+- \(LR+ = \frac{sensitivity}{1 - specificity} = \frac{0.666}{1 - 0.982} = 37\)
+
+- \(LR- = \frac{1 - sensitivity}{specificity} = \frac{1 - 0.666}{0.982} = 0.34\)
+
+- Random patient \(P_{pretest} = 0.1\):
+    - +RIDT: \(O_{posttest} = P_{pretest} * (1 - P_{pretest}) * LR+ = \frac{0.1}{1 - 0.1} * 37 = 4.11\)
+    - +RIDT: \(P_{posttest} = \frac{O_{posttest}}{1 + O_{posttest}} = 0.804\)
+    
+    - -RIDT: \(O_{posttest} = P_{pretest} * (1 - P_{pretest}) * LR- = \frac{0.1}{1 - 0.1} * 0.34 = 0.0378\)
+    - -RIDT: \(P_{posttest} = \frac{O_{posttest}}{1 + O_{posttest}} = 0.036\)
+
+# Adverse Effects? See Manuscript {#smaller}
 
 # The End {#smaller}
+
+## Bibliography {#smaller}
+
+- Flannery, B. (2017). Interim estimates of 2016-17 seasonal influenza vaccine effectiveness-United States, February 2017. MMWR. Morbidity and Mortality Weekly Report, 66.
+
+- Jefferson, T., Jones, M. A., Doshi, P., Del Mar, C. B., Heneghan, C. J., Hama, R., & Thompson, M. J. (2014). Neuraminidase inhibitors for preventing and treating influenza in healthy adults and children. The Cochrane Library.
+
+- Chartrand, C., Leeflang, M. M., Minion, J., Brewer, T., & Pai, M. (2012). Accuracy of rapid influenza diagnostic tests: a meta-analysis. Annals of internal medicine, 156(7), 500-511.
