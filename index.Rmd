@@ -18,7 +18,7 @@ output:
         theme: whiteboard
 ---
 
-## Road Map 
+## Road Map {#smaller}
 
 - Brief case presentation
 
@@ -30,9 +30,9 @@ output:
 
 - Putting everything together
 
-# Initial presentation
+# Initial presentation {#smaller}
 
-## Presented to OSH
+## Presented to OSH {#smaller}
 - Patient was a 2 m/o male, born at 29 weeks without a diagnosis of CLD. He presented with chest and nasal congestion x 24h. He had no fever, no vomiting, no SOB. Family had not seen retractions. 
 
 - Had sick contacts: sister with cough and congestion with rhinorrhea. He did not attend daycare.
@@ -41,7 +41,7 @@ output:
 
 - Parents were concerned due to his prematurity, so requested transfer to the UMC ER for evaluation by Pediatrics. 
 
-## At UMC ED
+## At UMC ED {#smaller}
 
 - No need for transfer via EMS.
 
@@ -49,24 +49,24 @@ output:
 
 - Pt was tired, but not lethargic or toxic. In OSH ER, **Flu** and **RSV** negative. In ER, appeared comfortable on RA w/o retractions. Of note, a single loose tooth was present.
 
-## Assesment
+## Assesment {#smaller}
 
 - Most likely etiology is viral URI. PO intake is adequate and patient is well hydrated.
 
-## Plan
+## Plan {#smaller}
 - OK to DC home
 - Tylenol PRN fever/pain
 - Nasal saline and bulb suctioning as needed
 - Discussed return precautions
 - Establish with dentist for tooth extraction
 
-## Second presentation
+## Second presentation {#smaller}
 
-## Prior to UMC arrival
+## Prior to UMC arrival {#smaller}
 
 - Presented to OSH after an apneic episode. Parents had taken him to Brownfield to a dentist at noon for removal of the neonatal tooth. He was given lidocaine there prior to removal. No complications at the office and the family returned home. 
 
-## On arrival to UMC
+## On arrival to UMC {#smaller}
 
 - He was acting well on room air with short pauses in breathing that appeared to be periodic breathing. At approximately 1900 he became apneic and had desaturations to the 20s, followed by bradycardia to the 40s. 
 
@@ -74,7 +74,7 @@ output:
     - He was bagged and chest compressions were done. Chest compressions required twice and atropine given once during the code. 
     - He remained with a pulse during the episode. He was intubated by anesthesia and placed on the ventilator with good saturations. 
 
-## Labs and current situation
+## Labs and current situation {#smaller}
 
 - An RVP showed
     - Flu A+ (no subtype positive)
@@ -84,98 +84,109 @@ output:
 
 - He has now been in the PICU for about two weeks and is still not doing well
 
-# First, how bad is this flu season?
+# First, how bad is this flu season? {#smaller}
 
-## Not too bad actually
+## Not too bad actually {#smaller}
 
 ```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
 knitr::include_graphics("files/PedFluDeath_WeeklyImage.jpeg")
 ```
 
-# PICO Question
+# PICO Question {#smaller}
 
-## 
+##  {#smaller}
 
-In children, how effective are the flu vaccine and neuraminidase inhibitors (NI) compared to placebo at **preventing** medically attended flu infections?
+- In children, how effective are the flu vaccine and neuraminidase inhibitors (NI) compared to placebo at **preventing** medically attended flu infections?
 
-# There are several preliminaries.
+# There are several preliminaries. {#smaller}
 
-## Briefly, how well do rapid diagnostics work?
+## Briefly, how well do rapid diagnostics work? {#smaller}
 
-## Lots of studies on RIDTs
+## Lots of studies on RIDTs {#smaller}
 
 ```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
 knitr::include_graphics("files/ridt_demo.png")
 ```
 
-## RIDTs perform better in children
+## RIDTs perform better in children {#smaller}
 
 ```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
 knitr::include_graphics("files/ridt_subgroups.png")
 ```
 
-## Timing matters for RIDTs 
+## Timing matters for RIDTs  {#smaller}
 
 ```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
 knitr::include_graphics("files/ridt_timing.png")
 ```
 
-## Real effectiveness depends on prevalence 
+## Real effectiveness depends on prevalence  {#smaller}
 
-## Our region is around 10% now 
+## Our region is around 10% now  {#smaller}
 
 ```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
 knitr::include_graphics("files/prevalence.jpeg")
 ```
 
-# How effective is the flu vaccine? 
+# How effective is the flu vaccine?  {#smaller}
 
-## It varies widely each year 
+## It varies widely each year  {#smaller}
 
 ```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
 knitr::include_graphics("files/vaccine-effectiveness-table-2016.png")
 ```
 
-## How about in children this year? 
+## How about in children this year?  {#smaller}
 
 ```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
 knitr::include_graphics("files/bydemo.png")
 ```
 
-# How effective are NIs? 
+# How effective are NIs?  {#smaller}
 
-## Tamiflu is moderately effective
+## Tamiflu is moderately effective {#smaller}
 
 ```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
 knitr::include_graphics("files/tamiflu_combined.png")
 ```
 
-## Relenza is moderately effective 
+## Relenza is moderately effective  {#smaller}
 
 ```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
 knitr::include_graphics("files/tamiflu_effectiveness_1.png")
 ```
 
-## Similarly so for PEP 
+## Similarly so for PEP  {#smaller}
 
 ```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
 knitr::include_graphics("files/tamiflu_effectiveness_2.png")
 ```
 
-## And for preventing pneumonia 
+## And for preventing pneumonia  {#smaller}
 
 ```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
 knitr::include_graphics("files/tamiflu_effectiveness_3.png")
 ```
 
-## How about in children? 
+# These studies are decent, but what do they mean?  {#smaller}
 
-```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
-knitr::include_graphics("files/NI_effectiveness_children.png")
-```
+## Flu Vaccine versus NIs {#smaller}
+- \(VaccineEffectiveness = 1 - RiskRatio\)
 
-# These studies are decent, but what does it mean? 
+- \(AbsoluteRiskReduction = Prevalence * Vaccine Effectiveness\)
 
-## Some calculations to make it simple to understand
+- \(Number Needed To Treat = \frac{1}{Absolute Risk Reduction}\)
 
-# The End
+- Flu vaccine: \(NNT = \frac{1}{P * VE} = \frac{1}{0.1 * 0.53} = 18.87\)
+
+- Tamiflu household prophylaxis: \(NNT = \frac{1}{P * (1 - RR)} = \frac{1}{0.1 * (1 - 0.2)} = 12.5\)
+
+- Relenza household prophylaxis: \(NNT = \frac{1}{P * (1 - RR)} = \frac{1}{0.1 * (1 - 0.2)} = 12.82\)
+
+- Preventing secondary pneumonia: \(NNT = \frac{1}{P * (1 - RR)} = \frac{1}{0.1 * (1 - 0.3)} = 14.3\)
+
+#Adverse Effects?
+
+See Manuscript
+
+# The End {#smaller}
