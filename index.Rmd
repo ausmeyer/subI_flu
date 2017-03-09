@@ -1,11 +1,10 @@
 ---
 title: "Pediatrics PICO presentation"
 author: Austin Meyer
-date: February 24, 2017
+date: "`r Sys.Date()`"
 output: 
   revealjs::revealjs_presentation:
-    css: styles.css
-    theme: default
+    theme: simple
     highlight: pygments
     center: true
     reveal_plugins: ["notes", "chalkboard", "zoom"]
@@ -18,7 +17,12 @@ output:
         theme: whiteboard
 ---
 
-## Road Map {#smaller}
+## Road Map
+
+<style type="text/css">
+.reveal { font-size: 26px;}
+.reveal h1 { font-size: 2.0em;}
+</style>
 
 - Brief case presentation
 
@@ -30,9 +34,9 @@ output:
 
 - Putting everything together
 
-# Initial presentation {#smaller}
+# Initial presentation
 
-## Presented to OSH {#smaller}
+## Presented to OSH
 - Patient was a 2 m/o male, born at 29 weeks without a diagnosis of CLD. He presented with chest and nasal congestion x 24h. He had no fever, no vomiting, no SOB. Family had not seen retractions. 
 
 - Had sick contacts: sister with cough and congestion with rhinorrhea. He did not attend daycare.
@@ -41,7 +45,7 @@ output:
 
 - Parents were concerned due to his prematurity, so requested transfer to the UMC ER for evaluation by Pediatrics. 
 
-## At UMC ED {#smaller}
+## At UMC ED
 
 - No need for transfer via EMS.
 
@@ -49,24 +53,24 @@ output:
 
 - Pt was tired, but not lethargic or toxic. In OSH ER, **Flu** and **RSV** negative. In ER, appeared comfortable on RA w/o retractions. Of note, a single loose tooth was present.
 
-## Assesment {#smaller}
+## Assesment
 
 - Most likely etiology is viral URI. PO intake is adequate and patient is well hydrated.
 
-## Plan {#smaller}
+## Plan
 - OK to DC home
 - Tylenol PRN fever/pain
 - Nasal saline and bulb suctioning as needed
 - Discussed return precautions
 - Establish with dentist for tooth extraction
 
-## Second presentation {#smaller}
+## Second presentation
 
-## Prior to UMC arrival {#smaller}
+## Prior to UMC arrival
 
 - Presented to OSH after an apneic episode. Parents had taken him to Brownfield to a dentist at noon for removal of the neonatal tooth. He was given lidocaine there prior to removal. No complications at the office and the family returned home. 
 
-## On arrival to UMC {#smaller}
+## On arrival to UMC
 
 - He was acting well on room air with short pauses in breathing that appeared to be periodic breathing. At approximately 1900 he became apneic and had desaturations to the 20s, followed by bradycardia to the 40s. 
 
@@ -74,7 +78,7 @@ output:
     - He was bagged and chest compressions were done. Chest compressions required twice and atropine given once during the code. 
     - He remained with a pulse during the episode. He was intubated by anesthesia and placed on the ventilator with good saturations. 
 
-## Labs and current situation {#smaller}
+## Labs and current situation
 
 - An RVP showed
     - Flu A+ (no subtype positive)
@@ -84,93 +88,71 @@ output:
 
 - He has now been in the PICU for about two weeks and is still not doing well
 
-# First, how bad is this flu season? {#smaller}
+# First, how bad is this flu season?
 
-## Not too bad actually {#smaller}
+## Not too bad actually
 
-```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
-knitr::include_graphics("files/PedFluDeath_WeeklyImage.jpeg")
-```
+![](files/PedFluDeath_WeeklyImage.jpeg){width=800px}
 
-# PICO Question {#smaller}
+# PICO Question
 
-##  {#smaller}
+## 
 
 - In children, how effective are the flu vaccine and neuraminidase inhibitors (NI) compared to placebo at **preventing** medically attended flu infections?
 
-# There are several preliminaries. {#smaller}
+# There are several preliminaries.
 
-## Briefly, how well do rapid diagnostics work? {#smaller}
+## Briefly, how well do rapid diagnostics work?
 
-## Lots of studies on RIDTs {#smaller}
+## Lots of studies on RIDTs
 
-```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
-knitr::include_graphics("files/ridt_demo.png")
-```
+![](files/ridt_demo.png){width=400px}
 
-## RIDTs perform better in children {#smaller}
+## RIDTs perform better in children
 
-```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
-knitr::include_graphics("files/ridt_subgroups.png")
-```
+![](files/ridt_subgroups.png){width=600px}
 
-## Timing matters for RIDTs  {#smaller}
+## Timing matters for RIDTs 
 
-```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
-knitr::include_graphics("files/ridt_timing.png")
-```
+![](files/ridt_timing.png){width=800px}
 
-## Real effectiveness depends on prevalence  {#smaller}
+## Real effectiveness depends on prevalence 
 
-## Our region is around 10% now  {#smaller}
+## Our region is around 10% now 
 
-```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
-knitr::include_graphics("files/prevalence.jpeg")
-```
+![](files/prevalence.jpeg){width=850px}
 
-# How effective is the flu vaccine?  {#smaller}
+# How effective is the flu vaccine? 
 
-## It varies widely each year  {#smaller}
+## It varies widely each year 
 
-```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
-knitr::include_graphics("files/vaccine-effectiveness-table-2016.png")
-```
+![](files/vaccine-effectiveness-table-2016.png){width=800px}
 
-## How about in children this year?  {#smaller}
+## How about in children this year? 
 
-```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
-knitr::include_graphics("files/bydemo.png")
-```
+![](files/bydemo.png){width=800px}
 
-# How effective are NIs?  {#smaller}
+# How effective are NIs? 
 
-## Tamiflu is moderately effective {#smaller}
+## Tamiflu is moderately effective
 
-```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
-knitr::include_graphics("files/tamiflu_combined.png")
-```
+![](files/tamiflu_combined.png){width=800px}
 
-## Relenza is moderately effective  {#smaller}
+## Relenza is moderately effective 
 
-```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
-knitr::include_graphics("files/tamiflu_effectiveness_1.png")
-```
+![](files/tamiflu_effectiveness_1.png){width=800px}
 
-## Similarly so for PEP  {#smaller}
+## Similarly so for PEP 
 
-```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
-knitr::include_graphics("files/tamiflu_effectiveness_2.png")
-```
+![](files/tamiflu_effectiveness_2.png){width=800px}
 
-## And for preventing pneumonia  {#smaller}
+## And for preventing pneumonia 
 
-```{r, , message=FALSE, warning=FALSE, echo=FALSE, out.height = "575px"}
-knitr::include_graphics("files/tamiflu_effectiveness_3.png")
-```
+![](files/tamiflu_effectiveness_3.png){width=800px}
 
-# These studies are nice, but what do they mean?  {#smaller}
+# These studies are nice, but what do they mean? 
 
-## Flu Vaccine versus NIs {#smaller}
+## Flu Vaccine versus NIs
 
 - \(VaccineEffectiveness = 1 - RiskRatio\)
 
@@ -186,7 +168,7 @@ knitr::include_graphics("files/tamiflu_effectiveness_3.png")
 
 - Preventing secondary pneumonia: \(NNT = \frac{1}{P * (1 - RR)} = \frac{1}{0.1 * (1 - 0.3)} = 14.3\)
 
-## RIDTs for children {#smaller}
+## RIDTs for children
 
 - \(LR+ = \frac{sensitivity}{1 - specificity} = \frac{0.666}{1 - 0.982} = 37\)
 
@@ -199,11 +181,11 @@ knitr::include_graphics("files/tamiflu_effectiveness_3.png")
     - -RIDT: \(O_{posttest} = P_{pretest} * (1 - P_{pretest}) * LR- = \frac{0.1}{1 - 0.1} * 0.34 = 0.0378\)
     - -RIDT: \(P_{posttest} = \frac{O_{posttest}}{1 + O_{posttest}} = 0.036\)
 
-# Adverse Effects? See Manuscript {#smaller}
+# Adverse Effects? See Manuscript
 
-# The End {#smaller}
+# The End
 
-## Bibliography {#smaller}
+## Bibliography
 
 - Flannery, B. (2017). Interim estimates of 2016-17 seasonal influenza vaccine effectiveness-United States, February 2017. MMWR. Morbidity and Mortality Weekly Report, 66.
 
